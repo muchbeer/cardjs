@@ -12,6 +12,12 @@ function App() {
         email = { contacts[0].email}
         />
         
+        <Card   
+        name= {contacts[1].name}
+        img = {contacts[1].imgURL}
+        tel = {contacts[1].phone}
+        email = { contacts[1].email}
+        />
     </div>
 }
 
